@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  animation: change-bg 10s linear infinite;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+
+@keyframes change-bg {
+  0% { background-color: #272727; }
+  20% { background-color: blue; }
+  40% { background-color: tomato; }
+  60% { background-color: lightblue; }
+  80% { background-color: darkgreen; }
+  100% { background-color: #272727; }
+}
